@@ -70,10 +70,9 @@ def hypotenuse(side1, side2):
 #   to test whether you defined the function correctly.
 #
 ###############################################################################
+
+
 window = rg.TurtleWindow()
-
-
-
 
 
 def turtles(thickness, color):
@@ -87,7 +86,9 @@ def turtles(thickness, color):
     green.forward(100)
     red.backward(100)
 
+
 turtles(3, 'red')
+
 
 window.close_on_mouse_click()
 ###############################################################################
